@@ -1,4 +1,71 @@
+.navbar
+{
+	margin-bottom: 0px
+}
+
 .navbar-brand>img
 	{
 		    height: 100%;
 	}
+
+.fill-screen
+{
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	margin-top: 50px;
+	height: 600px
+	
+}
+
+.founders
+{
+	
+	position: absolute;
+	bottom:0px;
+	left: 50%;
+	margin-right: -50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+}
+
+.founders-message
+{
+	position: absolute;
+	bottom:52%;
+	left: 50%;
+	margin-right: -50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	text-align:center;
+	font-weight: bold;
+	color:white;
+	
+}
+
+
+
+@media (max-width: 767px)
+{ 
+	
+	.founders-message
+		{
+			font-size: 20pt;
+		}
+	.founders
+		{
+			width:100%;
+		}
+}
+@media (min-width: 768px)  
+{
+	.founders-message
+		{
+			font-size: 60pt;
+		}
+		.founders
+		{
+			width:40%;
+		}
+}
+
