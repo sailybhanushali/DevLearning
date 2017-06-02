@@ -29,14 +29,21 @@
 	-webkit-transform:translateX(-50%);
 }
 
+.founders-message-small
+{
+	position: absolute;
+	bottom:90%;
+	width:100%;
+	text-align:center;
+	font-weight: bold;
+	color:black;
+}
+
 .founders-message
 {
 	position: absolute;
 	bottom:52%;
-	left: 50%;
-	margin-right: -50%;
-	transform:translateX(-50%);
-	-webkit-transform:translateX(-50%);
+	width:100%;
 	text-align:center;
 	font-weight: bold;
 	color:white;
@@ -52,6 +59,10 @@
 		{
 			font-size: 20pt;
 		}
+	.founders-message-small
+		{
+			font-size: 12pt;
+		}
 	.founders
 		{
 			width:100%;
@@ -63,7 +74,11 @@
 		{
 			font-size: 60pt;
 		}
-		.founders
+	.founders-message-small
+		{
+			font-size: 25pt;
+		}
+	.founders
 		{
 			width:40%;
 		}
