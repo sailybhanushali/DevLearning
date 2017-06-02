@@ -14,7 +14,7 @@
 	background-size: cover;
 	position: relative;
 	margin-top: 50px;
-	height: 600px
+	
 	
 }
 
@@ -54,7 +54,10 @@
 
 @media (max-width: 767px)
 { 
-	
+	.fill-screen
+	{
+		height: 300px;
+	}
 	.founders-message
 		{
 			font-size: 20pt;
@@ -65,11 +68,15 @@
 		}
 	.founders
 		{
-			width:100%;
+			width:60%;
 		}
 }
 @media (min-width: 768px)  
 {
+	.fill-screen
+	{
+		height: 600px;
+	}
 	.founders-message
 		{
 			font-size: 60pt;
