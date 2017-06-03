@@ -29,6 +29,7 @@
 	font-weight:bold;
 }
 
+/*for large devices*/
 @media (min-width: 768px) 
 {
 	.founders
@@ -37,6 +38,7 @@
 	}
 }
 
+/*for small devices*/
 @media (max-width:767px)
 {
 	.founders-message
