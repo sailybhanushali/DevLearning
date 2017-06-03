@@ -28,6 +28,27 @@
 	height: 60%;
 }
 
+.yellow-arrow
+{
+	width:200px;
+	position: absolute;
+	bottom:-31px;
+	left: 50%;
+	margin-right: -50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+}
+
+.yellow-message
+{
+	position: absolute;
+	bottom:-8px;
+	left: 50%;
+	margin-right: -50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+}
+
 .founders-message
 {
 	color: white;
@@ -63,18 +84,37 @@
 	-webkit-transform:translateX(-50%);
 }
 
-.give-message
-{
-	position: absolute;
-	top:12px;
-	left: 600px;
-}
-
 .our-logo
 {
 	height: 30px;
 }
 
+.base-arrow
+{
+	width:150px;
+	height:35px;
+	position: relative;
+	bottom: 5px;
+}
+
+.base-arrow-2
+{
+	width:15px;
+	left: -10px;
+
+}
+
+.give-message
+{
+	position: relative;
+    left: -165px;
+    bottom: 5px;
+}
+
+.project-section
+{
+	left:80px;
+}
 
 /*for large devices*/
 @media (min-width: 768px) 
@@ -126,12 +166,34 @@
 
 	.project-message
 	{
-		font-size: 1.5em;
+		font-size: 1.3em;
 	}
 
 	.footer-links a
 	{
 		display: block;
+	}
+
+	.yellow-arrow
+	{
+		width:100px;
+		bottom:-16px;
+	}
+
+	.yellow-message
+	{
+		font-size: 0.6em;
+		bottom: -6px;
+	}
+
+	.project-section
+	{
+		left:30px;
+	}
+
+	.arrow-block
+	{
+		top:8px;
 	}
 }
 
