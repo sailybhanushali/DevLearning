@@ -136,7 +136,7 @@
 }
 
 /*make logo shif left when menu is shown*/
-@media (max-width:768px)
+@media (max-width:991px)
 {
 	.navbar .container
 	{
