@@ -1,6 +1,6 @@
 .navbar-brand img
 	{
-		    height: 100%;
+		    height: 30px;
 	}
 
 .fill-screen
@@ -8,7 +8,7 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	margin-top:55px;
+	margin-top:57px;
 	height: 500px
 }
 
@@ -36,6 +36,17 @@
 	{
 		height: 65%;
 	}
+
+	.navbar .container
+	{
+		width:auto;
+		margin:0px auto;
+	}
+
+	.navbar .navbar-collapse
+	{
+		width:auto;
+	}
 }
 
 /*for small devices*/
@@ -48,6 +59,11 @@
 	.fill-screen
 	{
 		height: 300px;
+	}
+
+	.navbar .container
+	{
+		margin-left: 0px;
 	}
 
 }
