@@ -29,6 +29,11 @@
 	font-weight:bold;
 }
 
+.company-logos
+{
+	width: 450px;
+}
+
 /*for large devices*/
 @media (min-width: 768px) 
 {
@@ -47,6 +52,7 @@
 	{
 		width:auto;
 	}
+
 }
 
 /*for small devices*/
@@ -64,6 +70,20 @@
 	.navbar .container
 	{
 		margin-left: 0px;
+	}	
+
+	.company-logos
+	{
+		width: 300px;
 	}
 
+	.company-logo
+	{
+		width: 60px;
+	}
+
+	#rails-img
+	{
+		width: 30px;
+	}
 }
