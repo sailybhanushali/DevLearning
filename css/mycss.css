@@ -3,12 +3,17 @@
 		    height: 30px;
 	}
 
+.top-margin
+{
+	margin-top:57px;
+}
+
 .fill-screen
 {
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	margin-top:57px;
+	padding: 10px;
 	height: 500px
 }
 
@@ -58,6 +63,19 @@
 	-webkit-transform:translateX(-50%);
 }
 
+.give-message
+{
+	position: absolute;
+	top:12px;
+	left: 600px;
+}
+
+.our-logo
+{
+	height: 30px;
+}
+
+
 /*for large devices*/
 @media (min-width: 768px) 
 {
@@ -91,11 +109,6 @@
 		height: 300px;
 	}
 
-	.navbar .container
-	{
-		margin-left: 0px;
-	}	
-
 	.company-logos
 	{
 		width: 300px;
@@ -110,4 +123,23 @@
 	{
 		width: 30px;
 	}
+
+	.project-message
+	{
+		font-size: 1.5em;
+	}
+
+	.footer-links a
+	{
+		display: block;
+	}
+}
+
+/*make logo shif left when menu is shown*/
+@media (max-width:768px)
+{
+	.navbar .container
+	{
+		margin-left: 0px;
+	}	
 }
