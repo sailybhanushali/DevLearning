@@ -1,9 +1,4 @@
-.navbar
-{
-	margin-bottom: 0px
-}
-
-.navbar-brand>img
+.navbar-brand img
 	{
 		    height: 100%;
 	}
@@ -13,81 +8,25 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	margin-top: 50px;
-	
-	
+	margin-top:55px;
+	height: 400px
 }
 
 .founders
 {
-	
 	position: absolute;
 	bottom:0px;
 	left: 50%;
 	margin-right: -50%;
 	transform:translateX(-50%);
 	-webkit-transform:translateX(-50%);
+	height: 50%;
 }
 
-.founders-message-small
+@media (min-width: 768px) 
 {
-	position: absolute;
-	bottom:90%;
-	width:100%;
-	text-align:center;
-	font-weight: bold;
-	color:black;
-}
-
-.founders-message
-{
-	position: absolute;
-	bottom:52%;
-	width:100%;
-	text-align:center;
-	font-weight: bold;
-	color:white;
-	
-}
-
-
-
-@media (max-width: 767px)
-{ 
-	.fill-screen
-	{
-		height: 300px;
-	}
-	.founders-message
-		{
-			font-size: 20pt;
-		}
-	.founders-message-small
-		{
-			font-size: 12pt;
-		}
 	.founders
-		{
-			width:60%;
-		}
-}
-@media (min-width: 768px)  
-{
-	.fill-screen
 	{
-		height: 600px;
+		height: 60%;
 	}
-	.founders-message
-		{
-			font-size: 60pt;
-		}
-	.founders-message-small
-		{
-			font-size: 25pt;
-		}
-	.founders
-		{
-			width:40%;
-		}
 }
-
