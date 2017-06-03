@@ -34,6 +34,30 @@
 	width: 450px;
 }
 
+.lattice
+{
+	background-image: url(../Images/lattice.gif);
+	background-size: contain;
+	background-repeat: repeat-x;
+	height: 15px;
+	width:100%;
+}
+
+.relative
+{
+	position: relative;
+}
+
+.block-message
+{
+	position: absolute;
+	bottom:0px;
+	left: 50%;
+	margin-right: -50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+}
+
 /*for large devices*/
 @media (min-width: 768px) 
 {
