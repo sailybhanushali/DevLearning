@@ -10,7 +10,7 @@
 	background-size: cover;
 	position: relative;
 	padding: 10px;
-	height: 700px;
+	height: 600px;
 	padding-top:100px;
 }
 
@@ -22,7 +22,7 @@
 	margin-right: -50%;
 	transform:translateX(-50%);
 	-webkit-transform:translateX(-50%);
-	height: 57%;
+	height: 51%;
 }
 
 .yellow-arrow
