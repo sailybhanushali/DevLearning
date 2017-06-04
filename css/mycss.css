@@ -3,6 +3,19 @@
 		    height: 30px;
 	}
 
+.cbp-af-header
+{
+	padding: 15px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.cbp-af-header-shrink
+{
+	padding: 8px;
+
+}
 
 .fill-screen
 {
@@ -138,6 +151,7 @@
 /*for small devices*/
 @media (max-width:767px)
 {
+	
 	.founders-message
 	{
 		font-size: 2em;
