@@ -5,7 +5,7 @@
 
 .cbp-af-header
 {
-	padding: 15px;
+	padding: 20px 15px;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
@@ -13,7 +13,7 @@
 
 .cbp-af-header-shrink
 {
-	padding: 8px;
+	padding: 8px 15px;
 
 }
 
