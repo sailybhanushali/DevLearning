@@ -1,8 +1,3 @@
-$(function()
-{
-	$(window).on("load resize",function()
-	{
-		
-		// $(".fill-screen").first().css("height",$(window).height());
-	})
-});
+$(document).ready(function(){
+	new WOW().init();
+})
