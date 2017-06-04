@@ -3,10 +3,6 @@
 		    height: 30px;
 	}
 
-.top-margin
-{
-	margin-top:57px;
-}
 
 .fill-screen
 {
@@ -14,7 +10,8 @@
 	background-size: cover;
 	position: relative;
 	padding: 10px;
-	height: 500px
+	height: 700px;
+	padding-top:100px;
 }
 
 .founders
@@ -25,7 +22,7 @@
 	margin-right: -50%;
 	transform:translateX(-50%);
 	-webkit-transform:translateX(-50%);
-	height: 60%;
+	height: 57%;
 }
 
 .yellow-arrow
@@ -67,6 +64,7 @@
 	background-repeat: repeat-x;
 	height: 15px;
 	width:100%;
+	margin:0px 0px;
 }
 
 .relative
@@ -119,10 +117,10 @@
 /*for large devices*/
 @media (min-width: 768px) 
 {
-	.founders
+	/*.founders
 	{
 		height: 65%;
-	}
+	}*/
 
 	.navbar .container
 	{
@@ -142,11 +140,17 @@
 {
 	.founders-message
 	{
-		font-size: 2.5em;
+		font-size: 2em;
+	}
+
+	.founders
+	{
+		height: 50%;
 	}	
+
 	.fill-screen
 	{
-		height: 300px;
+		height: 400px;
 	}
 
 	.company-logos
