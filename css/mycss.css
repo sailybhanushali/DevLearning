@@ -3,9 +3,14 @@
 		    height: 30px;
 	}
 
+.navbar .nav-link
+	{
+		    margin-left: 55px;
+	}
+
 .cbp-af-header
 {
-	padding: 20px 15px;
+	padding: 25px 15px;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
@@ -23,51 +28,129 @@
 	background-size: cover;
 	position: relative;
 	padding: 10px;
-	height: 600px;
+	height: 825px;
 	padding-top:100px;
+}
+
+
+
+.founders-message-small
+{
+	font-weight: bold;
+    position: relative;
+    top: 79px;
+    font-size: 20pt;
+    left: -5px;
+}
+
+
+
+.founders-message
+{
+	color: white;
+    font-weight: bold;
+    letter-spacing: -12px;
+    font-size: 120pt;
+    position: relative;
+    top: 107px;
+    left: -5px;
+    word-spacing: 26px;
+
+}
+
+.founders-message-second
+{
+	color: white;
+    font-weight: bold;
+    letter-spacing: -12px;
+    font-size: 120pt;
+    position: relative;
+    top: 49px;
+    left: -1px;
+    word-spacing: 45px;
 }
 
 .founders
 {
-	position: absolute;
-	bottom:0px;
-	left: 50%;
-	margin-right: -50%;
-	transform:translateX(-50%);
-	-webkit-transform:translateX(-50%);
-	height: 51%;
+	 position: absolute;
+    bottom: -17px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    height: 365px;
 }
 
 .yellow-arrow
 {
-	width:200px;
-	position: absolute;
-	bottom:-31px;
-	left: 50%;
-	margin-right: -50%;
-	transform:translateX(-50%);
-	-webkit-transform:translateX(-50%);
+	width: 230px;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
 }
 
 .yellow-message
 {
 	position: absolute;
-	bottom:-8px;
-	left: 50%;
-	margin-right: -50%;
-	transform:translateX(-50%);
-	-webkit-transform:translateX(-50%);
+    bottom: -14px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    font-size: 15pt;
 }
 
-.founders-message
+.des-1
 {
-	color: white;
-	font-weight:bold;
+	height: 378px;
+}
+
+.des-1 p
+{
+	font-size: 24pt;
+    font-family: serif;
+    line-height: 40px;
+    position: relative;
+    top: 9px;
+    word-spacing: 1px;
+    padding: 48px;
+}
+
+.des-1 span
+{
+	display: block;
+}
+
+.des-1 h4
+{
+	font-size: 16pt;
+    position: relative;
+    top: -3px;
 }
 
 .company-logos
 {
-	width: 450px;
+	width: 605px;
+    position: relative;
+    top: -40px;
+}
+
+.company-logo
+{
+	width: 135px;
+}
+
+#rails-img
+{
+	width: 30px;
+}
+
+#ember-img
+{
+	width: 80px;
 }
 
 .lattice
@@ -80,13 +163,17 @@
 	margin:0px 0px;
 }
 
-.relative
+.relative-what
 {
 	position: relative;
+	top: 39px;
+	margin: 47px;
 }
 
 .center-message
 {
+	font-size: 1.1em;
+    font-weight: bold;
 	position: absolute;
 	bottom:0px;
 	left: 50%;
@@ -95,45 +182,97 @@
 	-webkit-transform:translateX(-50%);
 }
 
-.our-logo
+.sec-3
 {
-	height: 30px;
+	margin-top: 60px;
+	padding: 0px 50px;
+}
+
+.sec-3 img
+{
+	width: 210px;
+}
+
+.sec-3 h3
+{
+	margin-top: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 30px
+}
+
+.sec-3 p
+{
+	font-size: 1.4em;
+    line-height: 1.3em;
+    font-weight: bold;
+    margin-top: 17px;
+}
+
+.sec-3 p a
+{
+	text-decoration: underline;
+}
+
+.sec-4
+{
+	 margin-top: 140px;
+     margin-bottom: 56px;
+
+}
+
+.project-message
+{
+
 }
 
 .base-arrow
 {
-	width:150px;
-	height:35px;
-	position: relative;
-	bottom: 5px;
+	width: 185px;
+    height: 42px;
+    position: relative;
+    bottom: 15px;
+    left: 36px;
 }
 
 .base-arrow-2
 {
-	width:15px;
-	left: -10px;
+	width: 15px;
+    left: 25px;
 
 }
 
 .give-message
 {
 	position: relative;
-    left: -165px;
-    bottom: 5px;
+    left: -155px;
+    bottom: 12px;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .project-section
 {
-	left:80px;
+	position: relative;
+    left: 65px;
+    top: 20px;
+}
+
+.footer-links
+{
+	position: relative;
+    top: -20px;
+    left: 36px;
+}
+
+.our-logo
+{
+	height: 30px;
 }
 
 /*for large devices*/
 @media (min-width: 768px) 
 {
-	/*.founders
-	{
-		height: 65%;
-	}*/
 
 	.navbar .container
 	{
@@ -151,46 +290,58 @@
 /*for small devices*/
 @media (max-width:767px)
 {
+
+	.navbar-brand img
+	{
+		    height: 15px;
+	}
+
+	.navbar .nav-link
+	{
+		    margin-left: 0px;
+	}
+
+	.cbp-af-header
+	{
+		padding: 2px 15px;
+	}
+
+	.founders-message-small
+	{
+		    font-size: 8pt;
+		    top: -18px;
+		    left: 2px;
+	}
 	
 	.founders-message
 	{
-		font-size: 2em;
+		color: white;
+	    font-weight: bold;
+	    letter-spacing: -4px;
+	    font-size: 35pt;
+	    position: relative;
+	    top: -20px;
+	    left: 2px;
+	    word-spacing: 5px;
+	}
+
+	.founders-message-second
+	{
+		color: white;
+	    font-weight: bold;
+	    letter-spacing: -4px;
+	    font-size: 35pt;
+	    position: relative;
+	    top: -40px;
+	    left: 2px;
+	    word-spacing: 5px;
 	}
 
 	.founders
 	{
-		height: 50%;
+		height: 52%;
+		bottom: -10px;
 	}	
-
-	.fill-screen
-	{
-		height: 400px;
-	}
-
-	.company-logos
-	{
-		width: 300px;
-	}
-
-	.company-logo
-	{
-		width: 60px;
-	}
-
-	#rails-img
-	{
-		width: 30px;
-	}
-
-	.project-message
-	{
-		font-size: 1.3em;
-	}
-
-	.footer-links a
-	{
-		display: block;
-	}
 
 	.yellow-arrow
 	{
@@ -204,9 +355,107 @@
 		bottom: -6px;
 	}
 
+
+	.fill-screen
+	{
+		height: 335px;
+	}
+
+	.des-1
+	{
+	    height: 180px;
+	}
+
+	.des-1 span
+	{
+		display: inline;
+	}
+	.des-1 p
+	{		   
+	        font-size: 10pt;
+		    font-family: serif;
+		    line-height: 15px;
+		    position: relative;
+		    top: 0px;
+		    word-spacing: 1px;
+		    padding: 31px 11px;
+		    padding-bottom: 2px;
+	}
+
+	.des-1 h4 
+	{
+		    font-size: 7pt;
+		    position: relative;
+		    top: 10px;
+	}
+
+	.company-logos
+	{
+		width: 300px;
+	}
+
+	.company-logo {
+	    width: 50px;
+	}
+
+	#ember-img {
+    width: 40px;
+	}
+
+	#rails-img
+	{
+		width: 20px;
+	}
+
+	.center-message {
+    font-size: 5pt;
+    left: 51%;
+    bottom: 8px;
+	}
+
+	.relative-what {
+    position: relative;
+    top: -25px;
+    margin-top: 48px;
+    margin-bottom: 0px;
+	}
+
+	.sec-3
+	{
+		margin-top:0px;
+	}
+
+	.sec-3 img
+{
+	width: 100px;
+}
+
+	.project-message
+	{
+		font-size: 1.3em;
+	}
+
+	.footer-links a
+	{
+		display: block;
+	}
+
+	.footer-links {
+    position: relative;
+    top: -10px;
+    left: 0px;
+	}
+
+	.project-message {
+	    font-size: 1.3em;
+	    top: -28px;
+	    position: relative;
+	}
+
+	
 	.project-section
 	{
-		left:30px;
+		left:45px;
 	}
 
 	.arrow-block
