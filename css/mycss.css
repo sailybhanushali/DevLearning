@@ -262,24 +262,27 @@
 .give-message
 {
 	position: relative;
-    left: -155px;
-    bottom: 12px;
+    left: 806px;
+    bottom: 49px;
     font-weight: bold;
     font-size: 1.1em;
+    display: block;
+    width: 20%;
 }
 
 .project-section
 {
 	position: relative;
-    left: 65px;
-    top: 20px;
+    top: 27px;
+    left:74px;
+    width: 88%;
+    margin: 0px auto;
 }
 
 .footer-links
 {
 	position: relative;
     top: -20px;
-    /*left: 36px;*/
 }
 
 .our-logo
@@ -487,7 +490,8 @@
 
 	.project-section
 	{
-		 left: 13%;
+		 width: 275px;
+		 left:0px;
 	}
 
 	.arrow-block
@@ -503,9 +507,11 @@
 
 	.give-message
 	{
-		left: -126px;
-    	bottom: 15px;
-		font-size: 71%;
+		left: 55px;
+	    bottom: 50px;
+	    font-size: 15px;
+	    width: 144px;
+	    display: block;
 	}
 
 
@@ -534,7 +540,7 @@
 
 
 /*for ipad */
-@media (min-width:768px) and (max-width:1024px)
+@media (min-width:768px) and (max-width:1145px)
 {
 
 	.fill-screen {
@@ -674,7 +680,13 @@
 
 	.project-message {
     font-size: 214%;
+
 }
+
+		.project-section
+		{
+			    left: 5%;
+		}
 
 	.base-arrow {
 	    width: 185px;
@@ -690,11 +702,11 @@
 	}
 
 	.give-message {
-	    position: relative;
-	    left: -178px;
-	    bottom: 8px;
-	    font-weight: bold;
-	    font-size: 71%;
+	 position: relative;
+    bottom: 37px;
+    left: 486px;
+    font-weight: bold;
+    font-size: 91%;
 	}
 
 	.footer-links {
