@@ -144,7 +144,7 @@
 
 .company-logos
 {
-	width: 605px;
+	width: 615px;
     position: relative;
     top: -40px;
 }
@@ -152,6 +152,7 @@
 .company-logo
 {
 	width: 135px;
+	margin-left: 21px;
 }
 
 #rails-img
@@ -162,6 +163,11 @@
 #ember-img
 {
 	width: 80px;
+}
+
+#bundler-img
+{
+	    width: 101px;
 }
 
 .lattice
@@ -419,6 +425,7 @@
 
 	.company-logo {
 	    width: 50px;
+	    margin-left: 12px;
 	}
 
 	#ember-img {
@@ -429,6 +436,10 @@
 	{
 		width: 20px;
 	}
+
+	#bundler-img {
+    width: 50px;
+}
 
 	.center-message
 	{
