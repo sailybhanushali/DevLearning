@@ -1,17 +1,28 @@
 .navbar-brand img
 	{
-		    height: 30px;
+		    height: 34px;
+		    position: relative;
+		    left: 24px;
+		    bottom: 1px;
 	}
+
+.navbar-nav
+{
+	position:relative;
+	left: -13px;
+}
 
 .navbar .nav-link
 	{
-		margin-left: 49px;
-	    font-size: 17px;
+		margin-left: 56px;
+		font-size: 19px;
+		color: white;
+		padding-top: 7px;
 	}
 
 .cbp-af-header
 {
-	padding: 25px 15px;
+	padding: 25px 0px;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
@@ -25,10 +36,10 @@
 
 .fill-screen
 {
-	background-position: center;
-	background-size: cover;
+	background-position: 50% 124%;
+	background-size: 213% 91%;
 	position: relative;
-	height: 825px;
+	height: 868px;
 	padding-top:100px;
 }
 
@@ -37,10 +48,12 @@
 .founders-message-small
 {
 	font-weight: bold;
-    position: relative;
-    top: 79px;
-    font-size: 20pt;
-    left: -5px;
+	position: relative;
+	top: 86px;
+	font-size: 28px;
+	left: -8px;
+	word-spacing: 2px;
+	letter-spacing: 0px;
 }
 
 
@@ -48,87 +61,89 @@
 .founders-message
 {
 	color: white;
-    font-weight: bold;
-    letter-spacing: -12px;
-    font-size: 120pt;
-    position: relative;
-    top: 107px;
-    left: -5px;
-    word-spacing: 26px;
-
+	font-weight: bold;
+	letter-spacing: -7px;
+	font-size: 165px;
+	position: relative;
+	top: 118px;
+	left: -3px;
+	word-spacing: 11px;
 }
 
 .founders-message-second
 {
 	color: white;
-    font-weight: bold;
-    letter-spacing: -12px;
-    font-size: 120pt;
-    position: relative;
-    top: 49px;
-    left: -1px;
-    word-spacing: 45px;
+	font-weight: bold;
+	letter-spacing: -12px;
+	font-size: 168px;
+	position: relative;
+	top: 58px;
+	left: -3px;
+	word-spacing: 33px;
 }
 
 .founders
 {
 	 position: absolute;
-    bottom:-14px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    height: 365px;
+	 bottom: -13px;
+	 left: 50%;
+	 margin-right: -50%;
+	 transform: translateX(-50%);
+	 -webkit-transform: translateX(-50%);
+	 height: 385px;
 }
 
 .hr-arrows
 {
 	background-image: url(../Images/arrows.gif);
-    background-size: contain;
-    background-repeat: repeat-x;
-    height: 36px;
-    width: 100%;
-    margin: 0px 0px;
-    position: relative;
-    top: 42%;
+	background-size: 20px 31px;
+	background-repeat: repeat-x;
+	height: 36px;
+	width: 100%;
+	margin: 0px 0px;
+	position: relative;
+	top: 334px;
 }
 
 .yellow-arrow
 {
-	width: 230px;
-    position: absolute;
-    bottom: -35px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
+	width: 240px;
+	position: absolute;
+	bottom: -32px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
 }
 
 .yellow-message
 {
 	position: absolute;
-    bottom: -14px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    font-size: 15pt;
+	bottom: -7px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	font-size: 20px;
+	word-spacing: 4px;
 }
 
 .des-1
 {
-	height: 378px;
+	height: 390px;
 }
 
 .des-1 p
 {
-	font-size: 24pt;
-    font-family: serif;
-    line-height: 40px;
-    position: relative;
-    top: 9px;
-    word-spacing: 1px;
-    padding: 48px;
+	font-size: 33px;
+	font-family: serif;
+	line-height: 40px;
+	position: relative;
+	top: 9px;
+	left: -2px;
+	word-spacing: 2px;
+	letter-spacing: 0px;
+	padding: 46px;
 }
 
 .des-1 span
@@ -138,22 +153,23 @@
 
 .des-1 h4
 {
-	font-size: 16pt;
-    position: relative;
-    top: -3px;
+	font-size: 22px;
+	position: relative;
+	top: 4px;
 }
 
 .company-logos
 {
-	width: 615px;
-    position: relative;
-    top: -40px;
+	width: 655px;
+	position: relative;
+	top: -31px;
+	left: -8px;
 }
 
 .company-logo
 {
 	width: 135px;
-	margin-left: 21px;
+	margin-left: 23px;
 }
 
 #rails-img
@@ -163,12 +179,14 @@
 
 #ember-img
 {
-	width: 80px;
+	width: 88px;
+	margin-right: 7px;
 }
 
 #bundler-img
 {
-	    width: 101px;
+	    width: 107px;
+	    margin-left: 33px;
 }
 
 .lattice
@@ -176,7 +194,7 @@
 	background-image: url(../Images/lattice.gif);
 	background-size: content;
 	background-repeat: repeat-x;
-	height: 15px;
+	height: 14px;
 	width:100%;
 	margin:0px 0px;
 }
@@ -185,16 +203,16 @@
 .relative-what
 {
 	position: relative;
-	top: 39px;
+	top: 42px;
 	margin: 47px;
 }
 
 .center-message
 {
-	font-size: 1.1em;
-    font-weight: bold;
+	font-size: 18px;
+	font-weight: bold;
 	position: absolute;
-	bottom:0px;
+	bottom: -6px;
 	left: 50%;
 	margin-right: -50%;
 	transform:translateX(-50%);
@@ -209,7 +227,9 @@
 
 .sec-3 img
 {
-	width: 210px;
+	width: 216px;
+	position: relative;
+	top: 14px;
 }
 
 .sec-3 h3
