@@ -273,7 +273,7 @@
 {
 	position: relative;
     top: -20px;
-    left: 36px;
+    /*left: 36px;*/
 }
 
 .our-logo
@@ -525,6 +525,172 @@
 /*for ipad */
 @media (min-width:768px) and (max-width:1024px)
 {
+
+	.fill-screen {
+		    background-position: center;
+		    background-size: cover;
+		    position: relative;
+		    height: 596px;
+		    padding-top: 100px;
+		}
+
+
+	.founders-message-small {
+		    font-weight: bold;
+		    position: relative;
+		    top: 43px;
+		    font-size: 16pt;
+		    left: -5px;
+	}
+
+	.founders-message {
+    color: white;
+    font-weight: bold;
+    letter-spacing: -9px;
+    font-size: 68pt;
+    position: relative;
+    top: 51px;
+    left: -10px;
+    word-spacing: 26px;
+}
+
+	.founders-message-second {
+	    color: white;
+	    font-weight: bold;
+	    letter-spacing: -10px;
+	    font-size: 72pt;
+	    position: relative;
+	    top: 15px;
+	    left: -1px;
+	    word-spacing: 45px;
+	}
+
+
+	.founders {
+	    position: absolute;
+	    bottom: -17px;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translateX(-50%);
+	    -webkit-transform: translateX(-50%);
+	    height: 299px;
+	}
+
+	.hr-arrows {
+	    background-image: url(../Images/arrows.gif);
+	    background-size: contain;
+	    background-repeat: repeat-x;
+	    height: 30px;
+	    width: 100%;
+	    margin: 0px 0px;
+	    position: relative;
+	    top: 48%;
+	}
+
+	.yellow-arrow {
+	    width: 187px;
+	    position: absolute;
+	    bottom: -29px;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translateX(-50%);
+	    -webkit-transform: translateX(-50%);
+	}
+
+	.yellow-message {
+	    position: absolute;
+	    bottom: -7px;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translateX(-50%);
+	    -webkit-transform: translateX(-50%);
+	    font-size: 12pt;
+	}
+
+
+	.des-1 {
+	    height: 284px;
+	}
+
+
+	.des-1 p {
+	    font-size: 15pt;
+	    font-family: serif;
+	    line-height: 24px;
+	    position: relative;
+	    top: 0px;
+	    word-spacing: 1px;
+	    padding: 48px;
+	}
+
+	.des-1 h4 {
+	    font-size: 12pt;
+	    position: relative;
+	    top: -17px;
+	}
+
+	.company-logos {
+	    width: 605px;
+	    position: relative;
+	    top: -59px;
+	    left: 59px;
+	}
+
+	#rails-img {
+	    width: 26px;
+	}
+
+	.company-logo {
+	    width: 95px
+	}
+
+	.relative-what {
+	    position: relative;
+	    top: 18px;
+	    margin: 47px;
+	}
+
+	.center-message {
+	    font-size: 88%;
+	    font-weight: bold;
+	    position: absolute;
+	    bottom: 0px;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translateX(-50%);
+	    -webkit-transform: translateX(-50%);
+	}
+
+	.project-message {
+    font-size: 214%;
+}
+
+	.base-arrow {
+	    width: 185px;
+	    height: 42px;
+	    position: relative;
+	    bottom: 6px;
+	    left: -1px;
+	}
+
+	.base-arrow-2 {
+	    width: 15px;
+	    left: -11px;
+	}
+
+	.give-message {
+	    position: relative;
+	    left: -178px;
+	    bottom: 8px;
+	    font-weight: bold;
+	    font-size: 71%;
+	}
+
+	.footer-links {
+    position: relative;
+    top: 0;
+    left: 0;
+}
 	
 }
 
