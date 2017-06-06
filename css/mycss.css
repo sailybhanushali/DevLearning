@@ -5,7 +5,8 @@
 
 .navbar .nav-link
 	{
-		    margin-left: 55px;
+		margin-left: 49px;
+	    font-size: 17px;
 	}
 
 .cbp-af-header
@@ -72,7 +73,7 @@
 .founders
 {
 	 position: absolute;
-    bottom: -17px;
+    bottom:-14px;
     left: 50%;
     margin-right: -50%;
     transform: translateX(-50%);
