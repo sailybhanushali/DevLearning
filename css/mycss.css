@@ -96,7 +96,7 @@
 {
 	background-image: url(../Images/arrows.gif);
 	background-position: 12px;
-	background-size: 18px 22px;
+	background-size: 18px 24px;
 	background-repeat: repeat-x;
 	height: 36px;
 	width: 100%;
@@ -701,7 +701,7 @@
 	    width: 100%;
 	    margin: 0px 0px;
 	    position: relative;
-	    top: 48%;
+	    top: 47%;
 	}
 
 	.yellow-arrow {
