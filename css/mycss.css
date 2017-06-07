@@ -98,7 +98,7 @@
 	background-position: 12px;
 	background-size: 18px 24px;
 	background-repeat: repeat-x;
-	height: 36px;
+	height: 41px;
 	width: 100%;
 	margin: 0px 0px;
 	position: relative;
@@ -213,6 +213,7 @@
 	font-weight: bold;
 	position: absolute;
 	bottom: -6px;
+	padding: 7px 15px;
 	left: 50%;
 	margin-right: -50%;
 	transform:translateX(-50%);
@@ -306,6 +307,7 @@
 .footer-links
 {
 	margin-top: -7px;
+	margin-left: 24px;
 }
 
 .footer-links small
@@ -318,13 +320,14 @@
 
 .footer-links a
 {
-	margin-left: 41px;
+	margin-left: 46px;
 }
 
 .our-logo
 {
 	height: 35px;
 	margin-left: 92px;
+	margin-right: 21px;
 }
 
 /*for large devices*/
@@ -335,6 +338,8 @@
 	{
 		width: auto;
 		margin:0px auto;
+		position: relative;
+		left: -24px;
 	}
 
 	.navbar .navbar-collapse
@@ -388,9 +393,10 @@
 
 	.founders-message-small
 	{
-		    font-size: 8pt;
-		    top: -18px;
-		    left: 2px;
+		    font-size: 12px;
+		    top: -17px;
+		    left: 3px;
+		    word-spacing: -2px;
 	}
 	
 	.founders-message
@@ -429,11 +435,11 @@
 	    background-image: url(../Images/arrows.gif);
 	    background-size: contain;
 	    background-repeat: repeat-x;
-	    height: 17px;
+	    height: 18px;
 	    width: 100%;
 	    margin: 0px 0px;
 	    position: relative;
-	    top: 39%;
+	    top: 38%;
 	}
 
 	.yellow-arrow
@@ -512,9 +518,10 @@
 
 	.center-message
 	{
-	    font-size: 5pt;
+	    font-size: 9px;
 	    left: 51%;
-	    bottom: 5px;
+	    bottom: 4px;
+	    padding: 5px;
 	}
 
 	.relative-what {
@@ -526,7 +533,7 @@
 
 	.sec-3
 	{
-		margin-top:0px;
+		margin-top: -11px;
 	}
 
 	.sec-3 img
@@ -626,9 +633,14 @@
 /*for ipad */
 @media (min-width:768px) and (max-width:1145px)
 {
+	.cbp-af-header {
+    padding: 16px 0px;
+ }
 	.navbar-nav
 	{
 		margin:0px auto;
+		position: relative;
+		left: -1%;
 	}
 	.navbar container
 	{
@@ -636,16 +648,21 @@
 	}
 
 	.navbar .nav-link {
-    margin-left: 9px;
+    margin-left: 42px;
+    font-size: 14px;
  }
 .navbar-brand img
 {
-	margin-left: -21px;
-	margin-right: 64px;
+	margin-left: 12px;
+	margin-right: 39px;
+	height: 20px;
 }
+
+	
 	.fill-screen {
 		    background-position: center;
-		    background-size: cover;
+		    background-size: 213% 90%;
+		    background-position: 54% 128%;
 		    position: relative;
 		    height: 596px;
 		    padding-top: 100px;
@@ -729,6 +746,10 @@
 	    height: 284px;
 	}
 
+	.des-1 span {
+    display: inline;
+}
+
 
 	.des-1 p {
 	    font-size: 15pt;
@@ -769,10 +790,11 @@
 	}
 
 	.center-message {
-	    font-size: 88%;
+	    font-size: 13px;
 	    font-weight: bold;
 	    position: absolute;
-	    bottom: 0px;
+	    padding: 6px 16px;
+	    bottom: 1px;
 	    left: 50%;
 	    margin-right: -50%;
 	    transform: translateX(-50%);
