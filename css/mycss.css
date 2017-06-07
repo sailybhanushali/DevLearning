@@ -186,7 +186,7 @@
 #bundler-img
 {
 	    width: 107px;
-	    margin-left: 33px;
+	    margin-left: 26px;
 }
 
 .lattice
@@ -333,7 +333,7 @@
 
 	.navbar .container
 	{
-		width:1014px;
+		width: auto;
 		margin:0px auto;
 	}
 
@@ -488,6 +488,7 @@
 	.company-logos
 	{
 		width: 318px;
+		left: 0px;
 	}
 
 	.company-logo {
@@ -625,7 +626,23 @@
 /*for ipad */
 @media (min-width:768px) and (max-width:1145px)
 {
+	.navbar-nav
+	{
+		margin:0px auto;
+	}
+	.navbar container
+	{
+		margin:0px auto;
+	}
 
+	.navbar .nav-link {
+    margin-left: 9px;
+ }
+.navbar-brand img
+{
+	margin-left: -21px;
+	margin-right: 64px;
+}
 	.fill-screen {
 		    background-position: center;
 		    background-size: cover;
@@ -733,7 +750,8 @@
 	    width: 605px;
 	    position: relative;
 	    top: -59px;
-	    left: 59px;
+	    left: 14px;
+	    margin: auto;
 	}
 
 	#rails-img {
@@ -802,10 +820,12 @@
 }
 
 /*make logo shif left when menu is shown*/
-@media (max-width:991px)
+@media (max-width:767px)
 {
 	.navbar .container
 	{
 		margin-left: 0px;
 	}	
+
+	
 }
