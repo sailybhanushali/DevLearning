@@ -192,9 +192,9 @@
 .lattice
 {
 	background-image: url(../Images/lattice.gif);
-	background-size: content;
+	background-size: contain;
 	background-repeat: repeat-x;
-	height: 14px;
+	height: 20px;
 	width:100%;
 	margin:0px 0px;
 }
@@ -244,13 +244,15 @@
 .sec-3 p
 {
 	font-size: 1.4em;
-    line-height: 1.3em;
-    margin-top: 17px;
+	line-height: 1.3em;
+	margin-top: 17px;
+	font-family: serif;
 }
 
 .sec-3 p a
 {
 	text-decoration: underline;
+	color: #31b0d5;
 }
 
 .sec-4
@@ -315,6 +317,7 @@
 	margin-top: 65px;
 	margin-left: -23px;
 	font-size: 19px;
+	font-family: serif;
 }
 
 
